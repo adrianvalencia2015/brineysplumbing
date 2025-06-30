@@ -1,155 +1,31 @@
+
+/* Full styling included - simplified structure */
 body {
   font-family: 'Segoe UI', sans-serif;
-  color: #fff;
+  color: #333;
   margin: 0;
-  background-color: #2a2a2a;
+  background-color: #f9f9f9;
 }
-
-a {
-  color: #ff6a00;
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-  display: block;
-}
-
-.navbar {
-  background: #1e1e1e;
-  border-bottom: 1px solid #333;
-  padding: 1rem 0;
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
-
-.nav-content {
-  max-width: 1200px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 1.5rem;
-}
-
-.logo {
-  height: 60px;
-}
-
-.nav-content nav a {
-  margin-left: 20px;
-  font-weight: 600;
-  color: #fff;
-}
-
-.hero {
-  background: url('images/hero.jpg') center/cover no-repeat;
-  height: 90vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
-.hero-overlay {
-  background: rgba(0, 0, 0, 0.6);
-  color: white;
-  text-align: center;
-  padding: 2rem;
-  max-width: 600px;
-}
-
-.hero-overlay h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.hero-overlay p {
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
-}
-
-.btn {
-  background-color: #ff6a00;
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border: none;
-  border-radius: 5px;
-  font-weight: bold;
-}
-
-.section {
-  padding: 4rem 1.5rem;
-  background-color: #2a2a2a;
-}
-
-.alt-section {
-  background-color: #1f1f1f;
-}
-
-.container {
-  max-width: 1200px;
-  margin: auto;
-}
-
-.section-title {
-  text-align: center;
-  margin-bottom: 2rem;
-  font-size: 2rem;
-  color: #ff6a00;
-}
-
-.service-grid {
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-}
-
-.service-card {
-  background: #333;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(255,255,255,0.05);
-  text-align: center;
-  padding-bottom: 1rem;
-}
-
-.service-card h3 {
-  margin: 1rem 0 0.5rem;
-  color: #ff6a00;
-}
-
-.about-flex {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  align-items: center;
-}
-
-.about-text, .about-img {
-  flex: 1;
-  min-width: 280px;
-}
-
-.contact-form {
-  margin-top: 2rem;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 0.75rem;
-  margin-bottom: 1rem;
-  border: 1px solid #555;
-  border-radius: 5px;
-  background: #222;
-  color: #fff;
-}
-
-.footer {
-  background: #1a1a1a;
-  color: #ccc;
-  text-align: center;
-  padding: 2rem 1rem;
-}
+a { color: #ff6a00; text-decoration: none; }
+img { max-width: 100%; display: block; }
+.navbar { background: white; border-bottom: 1px solid #ddd; padding: 1rem 0; position: sticky; top: 0; z-index: 10; }
+.nav-content { max-width: 1200px; margin: auto; display: flex; justify-content: space-between; align-items: center; padding: 0 1.5rem; }
+.logo { height: 60px; }
+.nav-content nav a { margin-left: 20px; font-weight: 600; }
+.hero { background: url('images/hero.jpg') center/cover no-repeat; height: 90vh; display: flex; align-items: center; justify-content: center; position: relative; }
+.hero-overlay { background: rgba(0, 0, 0, 0.5); color: white; text-align: center; padding: 2rem; max-width: 600px; }
+.hero-overlay h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+.hero-overlay p { font-size: 1.2rem; margin-bottom: 1.5rem; }
+.btn { background-color: #ff6a00; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 5px; font-weight: bold; }
+.section { padding: 4rem 1.5rem; background-color: #fff; }
+.alt-section { background-color: #f0f0f0; }
+.container { max-width: 1200px; margin: auto; }
+.section-title { text-align: center; margin-bottom: 2rem; font-size: 2rem; color: #ff6a00; }
+.service-grid { display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.service-card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: center; padding-bottom: 1rem; }
+.service-card h3 { margin: 1rem 0 0.5rem; color: #ff6a00; }
+.about-flex { display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; }
+.about-text, .about-img { flex: 1; min-width: 280px; }
+.contact-form { margin-top: 2rem; }
+.contact-form input, .contact-form textarea { width: 100%; padding: 0.75rem; margin-bottom: 1rem; border: 1px solid #ccc; border-radius: 5px; }
+.footer { background: #222; color: #ccc; text-align: center; padding: 2rem 1rem; }
